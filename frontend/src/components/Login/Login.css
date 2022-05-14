@@ -1,0 +1,65 @@
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-center-align {
+  display: flex;
+  justify-content: center;
+}
+
+.div-right-align {
+  display: flex;
+  justify-content: right;
+}
+
+.div-left-align {
+  display: flex;
+  justify-content: left;
+}
+
+.div-left-align > i {
+  margin-right: 10px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  color: red;
+  margin-top: 10px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#login-title {
+  margin-bottom: 25px;
+  margin-right: 10px;
+}
+
+.second-button {
+  margin-left: 20px;
+  background-color: #27ae60;
+  border-color: #27ae60;
+}
+
+.main-button {
+  background-color: #3498db !important;
+  border-color: #3498db !important;
+}
+
+.icon-margin {
+  margin-right: 10px;
+}
